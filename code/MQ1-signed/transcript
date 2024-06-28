@@ -1,0 +1,863 @@
+# Compile of stack.v was successful.
+# Compile of stack.v was successful.
+# Compile of tb_4bit.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_4bit
+# vsim -gui work.tb_4bit 
+# Start time: 09:32:17 on Jun 28,2024
+# Loading work.tb_4bit
+# ** Error: (vsim-3033) Instantiation of 'st' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_4bit File: C:/Users/Abolfazl/Desktop/MQ1-signed/tb_4bit.v Line: 14
+#         Searched libraries:
+#             C:/Users/Abolfazl/Desktop/MQ1-signed/work
+# Error loading design
+# End time: 09:32:17 on Jun 28,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 7
+# Compile of stack.v was successful.
+# Compile of tb_4bit.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_4bit
+# vsim -gui work.tb_4bit 
+# Start time: 09:33:01 on Jun 28,2024
+# Loading work.tb_4bit
+# ** Error: (vsim-3033) Instantiation of 'stack' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_4bit File: C:/Users/Abolfazl/Desktop/MQ1-signed/tb_4bit.v Line: 15
+#         Searched libraries:
+#             C:/Users/Abolfazl/Desktop/MQ1-signed/work
+# Error loading design
+# End time: 09:33:01 on Jun 28,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of stack.v was successful.
+# Compile of tb_4bit.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_4bit
+# vsim -gui work.tb_4bit 
+# Start time: 09:33:46 on Jun 28,2024
+# Loading work.tb_4bit
+# Loading work.stack
+# ** Error: (vsim-3043) Unresolved reference to 'uut'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_4bit File: C:/Users/Abolfazl/Desktop/MQ1-signed/tb_4bit.v Line: 194
+# Error loading design
+# End time: 09:33:46 on Jun 28,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of stack.v was successful.
+# Compile of tb_4bit.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_4bit
+# vsim -gui work.tb_4bit 
+# Start time: 09:34:41 on Jun 28,2024
+# Loading work.tb_4bit
+# Loading work.stack
+# ** Error: (vsim-3043) Unresolved reference to 'uut'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_4bit File: C:/Users/Abolfazl/Desktop/MQ1-signed/tb_4bit.v Line: 194
+# Error loading design
+# End time: 09:34:41 on Jun 28,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of stack.v was successful.
+# Compile of tb_4bit.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_4bit
+# vsim -gui work.tb_4bit 
+# Start time: 09:35:21 on Jun 28,2024
+# Loading work.tb_4bit
+# Loading work.stack
+# WARNING: No extended dataflow license exists
+run -all
+# Pushing data   3 onto the stack
+# Pushing data   5 onto the stack
+# Addition result:           3 +           5 =  -8, Overflow: 1
+# Pushing data   7 onto the stack
+# Pushing data  -8 onto the stack
+# Addition (without overflow) result:           7 +           8 =  -1
+# Popping data  -8 from the stack after addition
+# Pushing data  -7 onto the stack
+# Pushing data  -8 onto the stack
+# Addition (overflow) result:          -7 +          -8 =   1, Overflow: 1
+# Popping data  -8 from the stack after addition
+# Pushing data   3 onto the stack
+# Pushing data   3 onto the stack
+# Multiplication result:           3 *           3 =  -7, Overflow: 1
+# Pushing data   7 onto the stack
+# Pushing data   2 onto the stack
+# Multiplication (overflow) result:           7 *           2 =  -2, Overflow: 1
+# Pushing data  -3 onto the stack
+# Pushing data  -4 onto the stack
+# Multiplication result:          -3 *          -4 =  -4, Overflow: 1
+# Pushing data   3 onto the stack
+# Pushing data  -4 onto the stack
+# Multiplication result:           3 *          -4 =   4, Overflow: 1
+# Popping data  -4 from the stack after multiplication
+# Final stack contents:
+# stack_mem[0] = 3
+# stack_mem[1] = 5
+# stack_mem[2] = 7
+# stack_mem[3] = -7
+# stack_mem[4] = 3
+# stack_mem[5] = 3
+# stack_mem[6] = 7
+# stack_mem[7] = 2
+# stack_mem[8] = -3
+# stack_mem[9] = -4
+# stack_mem[10] = 3
+# ** Note: $stop    : C:/Users/Abolfazl/Desktop/MQ1-signed/tb_4bit.v(199)
+#    Time: 260 ps  Iteration: 0  Instance: /tb_4bit
+# Break in Module tb_4bit at C:/Users/Abolfazl/Desktop/MQ1-signed/tb_4bit.v line 199
+# Compile of stack.v was successful.
+# Compile of tb_4bit.v was successful.
+# 2 compiles, 0 failed with no errors.
+quit -sim
+# End time: 09:57:08 on Jun 28,2024, Elapsed time: 0:21:47
+# Errors: 0, Warnings: 3
+# Compile of stack.v was successful.
+# Compile of tb_4bit.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb_4bit
+# vsim -gui work.tb_4bit 
+# Start time: 09:57:29 on Jun 28,2024
+# Loading work.tb_4bit
+# Loading work.stack
+# WARNING: No extended dataflow license exists
+run -all
+# Pushing data   3 onto the stack
+# Pushing data   5 onto the stack
+# Addition result:           3 +           5 =  -8, Overflow: 1
+# Pushing data   7 onto the stack
+# Pushing data  -8 onto the stack
+# Addition (without overflow) result:           7 +           8 =  -1
+# Popping data  -8 from the stack after addition
+# Pushing data  -7 onto the stack
+# Pushing data  -8 onto the stack
+# Addition (overflow) result:          -7 +          -8 =   1, Overflow: 1
+# Popping data  -8 from the stack after addition
+# Pushing data   3 onto the stack
+# Pushing data   3 onto the stack
+# Multiplication result:           3 *           3 =  -7, Overflow: 1
+# Pushing data   7 onto the stack
+# Pushing data   2 onto the stack
+# Multiplication (overflow) result:           7 *           2 =  -2, Overflow: 1
+# Pushing data  -3 onto the stack
+# Pushing data  -4 onto the stack
+# Multiplication result:          -3 *          -4 =  -4, Overflow: 1
+# Pushing data   3 onto the stack
+# Pushing data  -4 onto the stack
+# Multiplication result:           3 *          -4 =   4, Overflow: 1
+# Popping data  -4 from the stack after multiplication
+# Pushing data   1 onto the stack
+# Pushing data   2 onto the stack
+# Addition (without overflow) result:           1 +           2 =   3
+# Popping data   2 from the stack after addition
+# Pushing data   2 onto the stack
+# Pushing data   3 onto the stack
+# Multiplication (without overflow) result:           2 *           3 =   6
+# Popping data   3 from the stack after multiplication
+# Popping data   2 from the stack
+# Final stack contents:
+# stack_mem[0] = 3
+# stack_mem[1] = 5
+# stack_mem[2] = 7
+# stack_mem[3] = -7
+# stack_mem[4] = 3
+# stack_mem[5] = 3
+# stack_mem[6] = 7
+# stack_mem[7] = 2
+# stack_mem[8] = -3
+# stack_mem[9] = -4
+# stack_mem[10] = 3
+# stack_mem[11] = 1
+# ** Note: $stop    : C:/Users/Abolfazl/Desktop/MQ1-signed/tb_4bit.v(259)
+#    Time: 350 ns  Iteration: 0  Instance: /tb_4bit
+# Break in Module tb_4bit at C:/Users/Abolfazl/Desktop/MQ1-signed/tb_4bit.v line 259
+quit -sim
+# End time: 10:39:58 on Jun 28,2024, Elapsed time: 0:42:29
+# Errors: 0, Warnings: 2
+# Compile of stack.v was successful.
+# Compile of tb_4bit.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of stack.v was successful.
+# Compile of tb_4bit.v was successful.
+# Compile of tb_8bit.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.tb_8bit
+# vsim -gui work.tb_8bit 
+# Start time: 10:41:12 on Jun 28,2024
+# Loading work.tb_8bit
+# Loading work.stack
+run -all
+# Pushing data    3 onto the stack
+# Pushing data    5 onto the stack
+# Addition (without overflow) result:           3 +           5 =    8
+# Pushing data  127 onto the stack
+# Pushing data    2 onto the stack
+# Addition (overflow) result:         127 +           2 = -127, Overflow: 1
+# Popping data    2 from the stack after addition
+# Pushing data -128 onto the stack
+# Pushing data   -1 onto the stack
+# Addition (overflow) result:        -128 +          -1 =  127, Overflow: 1
+# Popping data   -1 from the stack after addition
+# Pushing data   10 onto the stack
+# Pushing data   12 onto the stack
+# Multiplication (without overflow) result:          10 *          12 =  120
+# Pushing data   64 onto the stack
+# Pushing data    3 onto the stack
+# Multiplication (overflow) result:          64 *           3 =  -64, Overflow: 1
+# Pushing data  -20 onto the stack
+# Pushing data   -5 onto the stack
+# Multiplication (without overflow) result:         -20 *          -5 =  100
+# Pushing data    7 onto the stack
+# Pushing data   -8 onto the stack
+# Multiplication (without overflow) result:           7 *          -8 =  -56
+# Popping data   -8 from the stack after multiplication
+# Pushing data    1 onto the stack
+# Pushing data    2 onto the stack
+# Addition (without overflow) result:           1 +           2 =    3
+# Popping data    2 from the stack after addition
+# Pushing data    2 onto the stack
+# Pushing data    3 onto the stack
+# Multiplication (without overflow) result:           2 *           3 =    6
+# Popping data    3 from the stack after multiplication
+# Final stack contents:
+# stack_mem[0] = 3
+# stack_mem[1] = 5
+# stack_mem[2] = 127
+# stack_mem[3] = -128
+# stack_mem[4] = 10
+# stack_mem[5] = 12
+# stack_mem[6] = 64
+# stack_mem[7] = 3
+# stack_mem[8] = -20
+# stack_mem[9] = -5
+# stack_mem[10] = 7
+# stack_mem[11] = 1
+# stack_mem[12] = 2
+# ** Note: $stop    : C:/Users/Abolfazl/Desktop/MQ1-signed/tb_8bit.v(248)
+#    Time: 340 ps  Iteration: 0  Instance: /tb_8bit
+# Break in Module tb_8bit at C:/Users/Abolfazl/Desktop/MQ1-signed/tb_8bit.v line 248
+quit -sim
+# End time: 10:44:13 on Jun 28,2024, Elapsed time: 0:03:01
+# Errors: 0, Warnings: 4
+# Compile of stack.v was successful.
+# Compile of tb_4bit.v was successful.
+# Compile of tb_8bit.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.tb_8bit
+# vsim -gui work.tb_8bit 
+# Start time: 10:44:38 on Jun 28,2024
+# Loading work.tb_8bit
+# Loading work.stack
+quit -sim
+# End time: 10:44:46 on Jun 28,2024, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 2
+# Compile of stack.v was successful.
+# Compile of tb_4bit.v was successful.
+# Compile of tb_8bit.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.tb_8bit
+# vsim -gui work.tb_8bit 
+# Start time: 10:44:58 on Jun 28,2024
+# Loading work.tb_8bit
+# Loading work.stack
+run -all
+# Pushing data    3 onto the stack
+# Pushing data    5 onto the stack
+# Addition (without overflow) result:           3 +           5 =    8
+# Pushing data  127 onto the stack
+# Pushing data    2 onto the stack
+# Addition (overflow) result:         127 +           2 = -127, Overflow: 1
+# Popping data    2 from the stack after addition
+# Pushing data -128 onto the stack
+# Pushing data   -1 onto the stack
+# Addition (overflow) result:        -128 +          -1 =  127, Overflow: 1
+# Popping data   -1 from the stack after addition
+# Pushing data   10 onto the stack
+# Pushing data   12 onto the stack
+# Multiplication (without overflow) result:          10 *          12 =  120
+# Pushing data   64 onto the stack
+# Pushing data    3 onto the stack
+# Multiplication (overflow) result:          64 *           3 =  -64, Overflow: 1
+# Pushing data   15 onto the stack
+# Pushing data   15 onto the stack
+# Multiplication (overflow) result:          15 *          15 =  -31, Overflow: 1
+# Pushing data  -20 onto the stack
+# Pushing data   -5 onto the stack
+# Multiplication (without overflow) result:         -20 *          -5 =  100
+# Pushing data    7 onto the stack
+# Pushing data   -8 onto the stack
+# Multiplication (without overflow) result:           7 *          -8 =  -56
+# Popping data   -8 from the stack after multiplication
+# Pushing data    1 onto the stack
+# Pushing data    2 onto the stack
+# Addition (without overflow) result:           1 +           2 =    3
+# Popping data    2 from the stack after addition
+# Final stack contents:
+# stack_mem[0] = 3
+# stack_mem[1] = 5
+# stack_mem[2] = 127
+# stack_mem[3] = -128
+# stack_mem[4] = 10
+# stack_mem[5] = 12
+# stack_mem[6] = 64
+# stack_mem[7] = 3
+# stack_mem[8] = 15
+# stack_mem[9] = 15
+# stack_mem[10] = -20
+# stack_mem[11] = -5
+# stack_mem[12] = 7
+# stack_mem[13] = 1
+# ** Note: $stop    : C:/Users/Abolfazl/Desktop/MQ1-signed/tb_8bit.v(245)
+#    Time: 330 ns  Iteration: 0  Instance: /tb_8bit
+# Break in Module tb_8bit at C:/Users/Abolfazl/Desktop/MQ1-signed/tb_8bit.v line 245
+quit -sim
+# End time: 10:50:19 on Jun 28,2024, Elapsed time: 0:05:21
+# Errors: 0, Warnings: 2
+# Compile of stack.v was successful.
+# Compile of tb_4bit.v was successful.
+# Compile of tb_8bit.v was successful.
+# Compile of tb_16bit.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.tb_16bit
+# vsim -gui work.tb_16bit 
+# Start time: 10:56:38 on Jun 28,2024
+# Loading work.tb_16bit
+# Loading work.stack
+# ** Error: (vsim-3043) Unresolved reference to 'stack'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_16bit File: C:/Users/Abolfazl/Desktop/MQ1-signed/tb_16bit.v Line: 274
+# Error loading design
+# End time: 10:56:38 on Jun 28,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 3
+# Compile of stack.v was successful.
+# Compile of tb_4bit.v was successful.
+# Compile of tb_8bit.v was successful.
+# Compile of tb_16bit.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.tb_16bit
+# vsim -gui work.tb_16bit 
+# Start time: 10:57:42 on Jun 28,2024
+# Loading work.tb_16bit
+# Loading work.stack
+# ** Error: (vsim-3043) Unresolved reference to 'stack'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_16bit File: C:/Users/Abolfazl/Desktop/MQ1-signed/tb_16bit.v Line: 275
+# Error loading design
+# End time: 10:57:42 on Jun 28,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of stack.v was successful.
+# Compile of tb_4bit.v was successful.
+# Compile of tb_8bit.v was successful.
+# Compile of tb_16bit.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.tb_16bit
+# vsim -gui work.tb_16bit 
+# Start time: 10:58:21 on Jun 28,2024
+# Loading work.tb_16bit
+# Loading work.stack
+quit -sim
+# End time: 10:58:32 on Jun 28,2024, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 2
+# Compile of stack.v was successful.
+# Compile of tb_4bit.v was successful.
+# Compile of tb_8bit.v was successful.
+# Compile of tb_16bit.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.tb_16bit
+# vsim -gui work.tb_16bit 
+# Start time: 10:58:50 on Jun 28,2024
+# Loading work.tb_16bit
+# Loading work.stack
+run -all
+# Pushing data    500 onto the stack
+# Pushing data    700 onto the stack
+# Addition (without overflow) result:         500 +         700 =   1200
+# Pushing data  32000 onto the stack
+# Pushing data  10000 onto the stack
+# Addition (overflow) result:       32000 +       10000 = -23536, Overflow: 1
+# Popping data  10000 from the stack after addition
+# Pushing data -32000 onto the stack
+# Pushing data -10000 onto the stack
+# Addition (overflow) result:      -32000 +      -10000 =  23536, Overflow: 1
+# Popping data -10000 from the stack after addition
+# Pushing data    500 onto the stack
+# Pushing data    200 onto the stack
+# Multiplication result:         500 *         200 = -31072, Overflow: 1
+# Pushing data  32000 onto the stack
+# Pushing data    200 onto the stack
+# Multiplication (overflow) result:       32000 *         200 = -22528, Overflow: 1
+# Pushing data  15000 onto the stack
+# Pushing data  20000 onto the stack
+# Multiplication (overflow) result:       15000 *       20000 = -23808, Overflow: 1
+# Pushing data  -5000 onto the stack
+# Pushing data  -2000 onto the stack
+# Multiplication result:       -5000 *       -2000 = -27008, Overflow: 1
+# Pushing data    500 onto the stack
+# Pushing data  -2000 onto the stack
+# Multiplication result:         500 *       -2000 = -16960, Overflow: 1
+# Popping data  -2000 from the stack after multiplication
+# Pushing data    100 onto the stack
+# Pushing data    200 onto the stack
+# Addition (without overflow) result:         100 +         200 =    300
+# Pushing data     10 onto the stack
+# Pushing data     20 onto the stack
+# Multiplication (without overflow) result:          10 *          20 =    300
+# Pushing data     -5 onto the stack
+# Pushing data      6 onto the stack
+# Multiplication (without overflow) result:          -5 *           6 =    -30
+# Final stack contents:
+# stack_mem[0] = 20
+# stack_mem[1] = -5
+# ** Note: $stop    : C:/Users/Abolfazl/Desktop/MQ1-signed/tb_16bit.v(279)
+#    Time: 390 ps  Iteration: 0  Instance: /tb_16bit
+# Break in Module tb_16bit at C:/Users/Abolfazl/Desktop/MQ1-signed/tb_16bit.v line 279
+quit -sim
+# End time: 11:07:33 on Jun 28,2024, Elapsed time: 0:08:43
+# Errors: 0, Warnings: 2
+# Compile of stack.v was successful.
+# Compile of tb_4bit.v was successful.
+# Compile of tb_8bit.v was successful.
+# Compile of tb_16bit.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.tb_16bit
+# vsim -gui work.tb_16bit 
+# Start time: 11:07:49 on Jun 28,2024
+# Loading work.tb_16bit
+# Loading work.stack
+run -all
+# Pushing data    500 onto the stack
+# Pushing data    700 onto the stack
+# Addition (without overflow) result:         500 +         700 =   1200
+# Pushing data  32000 onto the stack
+# Pushing data  10000 onto the stack
+# Addition (overflow) result:       32000 +       10000 = -23536, Overflow: 1
+# Popping data  10000 from the stack after addition
+# Pushing data -32000 onto the stack
+# Pushing data -10000 onto the stack
+# Addition (overflow) result:      -32000 +      -10000 =  23536, Overflow: 1
+# Popping data -10000 from the stack after addition
+# Pushing data    500 onto the stack
+# Pushing data    200 onto the stack
+# Multiplication result:         500 *         200 = -31072, Overflow: 1
+# Pushing data  32000 onto the stack
+# Pushing data    200 onto the stack
+# Multiplication (overflow) result:       32000 *         200 = -22528, Overflow: 1
+# Pushing data  15000 onto the stack
+# Pushing data  20000 onto the stack
+# Multiplication (overflow) result:       15000 *       20000 = -23808, Overflow: 1
+# Pushing data  -5000 onto the stack
+# Pushing data  -2000 onto the stack
+# Multiplication result:       -5000 *       -2000 = -27008, Overflow: 1
+# Pushing data    500 onto the stack
+# Pushing data  -2000 onto the stack
+# Multiplication result:         500 *       -2000 = -16960, Overflow: 1
+# Popping data  -2000 from the stack after multiplication
+# Pushing data    100 onto the stack
+# Pushing data    200 onto the stack
+# Addition (without overflow) result:         100 +         200 =    300
+# Pushing data     10 onto the stack
+# Pushing data     20 onto the stack
+# Multiplication (without overflow) result:          10 *          20 =    300
+# Pushing data     -5 onto the stack
+# Pushing data      6 onto the stack
+# Multiplication (without overflow) result:          -5 *           6 =    -30
+# Final stack contents:
+# stack_mem[0] = 20
+# stack_mem[1] = -5
+# ** Note: $stop    : C:/Users/Abolfazl/Desktop/MQ1-signed/tb_16bit.v(281)
+#    Time: 390 ns  Iteration: 0  Instance: /tb_16bit
+# Break in Module tb_16bit at C:/Users/Abolfazl/Desktop/MQ1-signed/tb_16bit.v line 281
+quit -sim
+# End time: 11:26:13 on Jun 28,2024, Elapsed time: 0:18:24
+# Errors: 0, Warnings: 2
+# Compile of stack.v was successful.
+# Compile of tb_4bit.v was successful.
+# Compile of tb_8bit.v was successful.
+# Compile of tb_16bit.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.tb_16bit
+# vsim -gui work.tb_16bit 
+# Start time: 11:26:35 on Jun 28,2024
+# Loading work.tb_16bit
+# Loading work.stack
+run -all
+# Pushing data      3 onto the stack
+# Pushing data      5 onto the stack
+# Addition (without overflow) result:           3 +           5 =      8
+# Pushing data  32767 onto the stack
+# Pushing data      2 onto the stack
+# Addition (overflow) result:       32767 +           2 = -32767, Overflow: 1
+# Popping data      2 from the stack after addition
+# Pushing data -32768 onto the stack
+# Pushing data     -1 onto the stack
+# Addition (overflow) result:      -32768 +          -1 =  32767, Overflow: 1
+# Popping data     -1 from the stack after addition
+# Pushing data     10 onto the stack
+# Pushing data     12 onto the stack
+# Multiplication (without overflow) result:          10 *          12 =    120
+# Pushing data    256 onto the stack
+# Pushing data    128 onto the stack
+# Multiplication (overflow) result:         256 *         128 = -32768, Overflow: 1
+# Pushing data    300 onto the stack
+# Pushing data    200 onto the stack
+# Multiplication (overflow) result:         300 *         200 =  -5536, Overflow: 1
+# Pushing data    -20 onto the stack
+# Pushing data     -5 onto the stack
+# Multiplication (without overflow) result:         -20 *          -5 =    100
+# Pushing data      7 onto the stack
+# Pushing data     -8 onto the stack
+# Multiplication (without overflow) result:           7 *          -8 =    -56
+# Popping data     -8 from the stack after multiplication
+# Pushing data      1 onto the stack
+# Pushing data      2 onto the stack
+# Addition (without overflow) result:           1 +           2 =      3
+# Popping data      2 from the stack after addition
+# Final stack contents:
+# stack_mem[0] = 3
+# stack_mem[1] = 5
+# stack_mem[2] = 32767
+# stack_mem[3] = -32768
+# stack_mem[4] = 10
+# stack_mem[5] = 12
+# stack_mem[6] = 256
+# stack_mem[7] = 128
+# stack_mem[8] = 300
+# stack_mem[9] = 200
+# stack_mem[10] = -20
+# stack_mem[11] = -5
+# stack_mem[12] = 7
+# stack_mem[13] = 1
+# ** Note: $stop    : C:/Users/Abolfazl/Desktop/MQ1-signed/tb_16bit.v(243)
+#    Time: 330 ps  Iteration: 0  Instance: /tb_16bit
+# Break in Module tb_16bit at C:/Users/Abolfazl/Desktop/MQ1-signed/tb_16bit.v line 243
+quit -sim
+# End time: 11:37:36 on Jun 28,2024, Elapsed time: 0:11:01
+# Errors: 0, Warnings: 2
+# Compile of stack.v was successful.
+# Compile of tb_4bit.v was successful.
+# Compile of tb_8bit.v was successful.
+# Compile of tb_16bit.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.tb_16bit
+# vsim -gui work.tb_16bit 
+# Start time: 11:37:48 on Jun 28,2024
+# Loading work.tb_16bit
+# Loading work.stack
+run -all
+# Pushing data      3 onto the stack
+# Pushing data      5 onto the stack
+# Addition (without overflow) result:           3 +           5 =      8
+# Pushing data  32767 onto the stack
+# Pushing data      2 onto the stack
+# Addition (overflow) result:       32767 +           2 = -32767, Overflow: 1
+# Popping data      2 from the stack after addition
+# Pushing data -32768 onto the stack
+# Pushing data     -1 onto the stack
+# Addition (overflow) result:      -32768 +          -1 =  32767, Overflow: 1
+# Popping data     -1 from the stack after addition
+# Pushing data     10 onto the stack
+# Pushing data     12 onto the stack
+# Multiplication (without overflow) result:          10 *          12 =    120
+# Pushing data    256 onto the stack
+# Pushing data    128 onto the stack
+# Multiplication (overflow) result:         256 *         128 = -32768, Overflow: 1
+# Pushing data    300 onto the stack
+# Pushing data    200 onto the stack
+# Multiplication (overflow) result:         300 *         200 =  -5536, Overflow: 1
+# Pushing data    -20 onto the stack
+# Pushing data     -5 onto the stack
+# Multiplication (without overflow) result:         -20 *          -5 =    100
+# Pushing data      7 onto the stack
+# Pushing data     -8 onto the stack
+# Multiplication (without overflow) result:           7 *          -8 =    -56
+# Popping data     -8 from the stack after multiplication
+# Pushing data      1 onto the stack
+# Pushing data      2 onto the stack
+# Addition (without overflow) result:           1 +           2 =      3
+# Popping data      2 from the stack after addition
+# Final stack contents:
+# stack_mem[0] = 3
+# stack_mem[1] = 5
+# stack_mem[2] = 32767
+# stack_mem[3] = -32768
+# stack_mem[4] = 10
+# stack_mem[5] = 12
+# stack_mem[6] = 256
+# stack_mem[7] = 128
+# stack_mem[8] = 300
+# stack_mem[9] = 200
+# stack_mem[10] = -20
+# stack_mem[11] = -5
+# stack_mem[12] = 7
+# stack_mem[13] = 1
+# ** Note: $stop    : C:/Users/Abolfazl/Desktop/MQ1-signed/tb_16bit.v(243)
+#    Time: 330 ps  Iteration: 0  Instance: /tb_16bit
+# Break in Module tb_16bit at C:/Users/Abolfazl/Desktop/MQ1-signed/tb_16bit.v line 243
+quit -sim
+# End time: 11:43:13 on Jun 28,2024, Elapsed time: 0:05:25
+# Errors: 0, Warnings: 2
+# Compile of stack.v was successful.
+# Compile of tb_4bit.v was successful.
+# Compile of tb_8bit.v was successful.
+# Compile of tb_16bit.v was successful.
+# Compile of tb_32bit.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.tb_32bit
+# vsim -gui work.tb_32bit 
+# Start time: 11:51:17 on Jun 28,2024
+# Loading work.tb_32bit
+# Loading work.stack
+run -all
+# Pushing data         100 onto the stack
+# Pushing data          50 onto the stack
+# Addition (without overflow) result:         100 +          50 =         150
+# Pushing data  2147483647 onto the stack
+# Pushing data           2 onto the stack
+# Addition (overflow) result:  2147483647 +           2 = -2147483647, Overflow: 1
+# Pushing data        1234 onto the stack
+# Pushing data         567 onto the stack
+# Multiplication (without overflow) result:        1234 *         567 =      699678
+# Pushing data  2147483647 onto the stack
+# Pushing data           2 onto the stack
+# Multiplication (overflow) result:  2147483647 *           2 =          -2, Overflow: 1
+# Pushing data        -100 onto the stack
+# Pushing data         -50 onto the stack
+# Addition (without overflow) result:        -100 +         -50 =        -150
+# Multiplication (without overflow) result:        -100 *         -50 =        5000
+# Pushing data           0 onto the stack
+# Pushing data           1 onto the stack
+# Pushing data           2 onto the stack
+# Pushing data           3 onto the stack
+# Pushing data           4 onto the stack
+# Pushing data           5 onto the stack
+# Pushing data           6 onto the stack
+# Pushing data           7 onto the stack
+# Pushing data           8 onto the stack
+# Pushing data           9 onto the stack
+# Pushing data          10 onto the stack
+# Pushing data          11 onto the stack
+# Pushing data          12 onto the stack
+# Pushing data          13 onto the stack
+# Pushing data          14 onto the stack
+# Pushing data          15 onto the stack
+# Pushing data         100 onto the stack
+# Popping data         100 from the stack
+# Popping data          15 from the stack
+# Popping data          14 from the stack
+# Popping data          13 from the stack
+# Popping data          12 from the stack
+# Popping data          11 from the stack
+# Popping data          10 from the stack
+# Popping data           9 from the stack
+# Popping data           8 from the stack
+# Popping data           7 from the stack
+# Popping data           6 from the stack
+# Popping data           6 from the stack
+# Popping data           6 from the stack
+# Popping data           6 from the stack
+# Popping data           6 from the stack
+# Popping data           6 from the stack
+# Popping data           6 from the stack
+# Final stack contents:
+# ** Note: $stop    : C:/Users/Abolfazl/Desktop/MQ1-signed/tb_32bit.v(181)
+#    Time: 520 ps  Iteration: 0  Instance: /tb_32bit
+# Break in Module tb_32bit at C:/Users/Abolfazl/Desktop/MQ1-signed/tb_32bit.v line 181
+quit -sim
+# End time: 11:58:50 on Jun 28,2024, Elapsed time: 0:07:33
+# Errors: 0, Warnings: 3
+# Compile of stack.v was successful.
+# Compile of tb_4bit.v was successful.
+# Compile of tb_8bit.v was successful.
+# Compile of tb_16bit.v was successful.
+# Compile of tb_32bit.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.tb_32bit
+# vsim -gui work.tb_32bit 
+# Start time: 11:59:03 on Jun 28,2024
+# Loading work.tb_32bit
+# Loading work.stack
+run -all
+# Pushing data         100 onto the stack
+# Pushing data          50 onto the stack
+# Addition (without overflow) result:         100 +          50 =         150
+# Pushing data  2147483647 onto the stack
+# Pushing data           2 onto the stack
+# Addition (overflow) result:  2147483647 +           2 = -2147483647, Overflow: 1
+# Pushing data        1234 onto the stack
+# Pushing data         567 onto the stack
+# Multiplication (without overflow) result:        1234 *         567 =      699678
+# Pushing data  2147483647 onto the stack
+# Pushing data           2 onto the stack
+# Multiplication (overflow) result:  2147483647 *           2 =          -2, Overflow: 1
+# Pushing data        -100 onto the stack
+# Pushing data         -50 onto the stack
+# Addition (without overflow) result:        -100 +         -50 =        -150
+# Multiplication (without overflow) result:        -100 *         -50 =        5000
+# Pushing data           0 onto the stack
+# Pushing data           1 onto the stack
+# Pushing data           2 onto the stack
+# Pushing data           3 onto the stack
+# Pushing data           4 onto the stack
+# Pushing data           5 onto the stack
+# Pushing data           6 onto the stack
+# Pushing data           7 onto the stack
+# Pushing data           8 onto the stack
+# Pushing data           9 onto the stack
+# Pushing data          10 onto the stack
+# Pushing data          11 onto the stack
+# Pushing data          12 onto the stack
+# Pushing data          13 onto the stack
+# Pushing data          14 onto the stack
+# Pushing data          15 onto the stack
+# Pushing data         100 onto the stack
+# Popping data         100 from the stack
+# Popping data          15 from the stack
+# Popping data          14 from the stack
+# Popping data          13 from the stack
+# Popping data          12 from the stack
+# Popping data          11 from the stack
+# Popping data          10 from the stack
+# Popping data           9 from the stack
+# Popping data           8 from the stack
+# Popping data           7 from the stack
+# Popping data           6 from the stack
+# Popping data           6 from the stack
+# Popping data           6 from the stack
+# Popping data           6 from the stack
+# Popping data           6 from the stack
+# Popping data           6 from the stack
+# Popping data           6 from the stack
+# Final stack contents:
+# ** Note: $stop    : C:/Users/Abolfazl/Desktop/MQ1-signed/tb_32bit.v(181)
+#    Time: 520 ps  Iteration: 0  Instance: /tb_32bit
+# Break in Module tb_32bit at C:/Users/Abolfazl/Desktop/MQ1-signed/tb_32bit.v line 181
+quit -sim
+# End time: 12:02:27 on Jun 28,2024, Elapsed time: 0:03:24
+# Errors: 0, Warnings: 2
+# Compile of stack.v was successful.
+# Compile of tb_4bit.v was successful.
+# Compile of tb_8bit.v was successful.
+# Compile of tb_16bit.v was successful.
+# Compile of tb_32bit.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.tb_32bit
+# vsim -gui work.tb_32bit 
+# Start time: 12:02:41 on Jun 28,2024
+# Loading work.tb_32bit
+# Loading work.stack
+run -all
+# Pushing data         100 onto the stack
+# Pushing data          50 onto the stack
+# Addition (without overflow) result:         100 +          50 =         150
+# Pushing data  2147483647 onto the stack
+# Pushing data           2 onto the stack
+# Addition (overflow) result:  2147483647 +           2 = -2147483647, Overflow: 1
+# Pushing data        1234 onto the stack
+# Pushing data         567 onto the stack
+# Multiplication (without overflow) result:        1234 *         567 =      699678
+# Pushing data  2147483647 onto the stack
+# Pushing data           2 onto the stack
+# Multiplication (overflow) result:  2147483647 *           2 =          -2, Overflow: 1
+# Pushing data        -100 onto the stack
+# Pushing data         -50 onto the stack
+# Addition (without overflow) result:        -100 +         -50 =        -150
+# Multiplication (without overflow) result:        -100 *         -50 =        5000
+# Pushing data           0 onto the stack
+# Pushing data           1 onto the stack
+# Pushing data           2 onto the stack
+# Pushing data           3 onto the stack
+# Pushing data           4 onto the stack
+# Pushing data           5 onto the stack
+# Pushing data           6 onto the stack
+# Pushing data           7 onto the stack
+# Pushing data           8 onto the stack
+# Pushing data           9 onto the stack
+# Pushing data          10 onto the stack
+# Pushing data          11 onto the stack
+# Pushing data          12 onto the stack
+# Pushing data          13 onto the stack
+# Pushing data          14 onto the stack
+# Pushing data          15 onto the stack
+# Pushing data         100 onto the stack
+# Popping data         100 from the stack
+# Popping data          15 from the stack
+# Popping data          14 from the stack
+# Popping data          13 from the stack
+# Popping data          12 from the stack
+# Popping data          11 from the stack
+# Popping data          10 from the stack
+# Popping data           9 from the stack
+# Popping data           8 from the stack
+# Popping data           7 from the stack
+# Popping data           6 from the stack
+# Popping data           6 from the stack
+# Popping data           6 from the stack
+# Popping data           6 from the stack
+# Popping data           6 from the stack
+# Popping data           6 from the stack
+# Popping data           6 from the stack
+# Final stack contents:
+# ** Note: $stop    : C:/Users/Abolfazl/Desktop/MQ1-signed/tb_32bit.v(181)
+#    Time: 520 ps  Iteration: 0  Instance: /tb_32bit
+# Break in Module tb_32bit at C:/Users/Abolfazl/Desktop/MQ1-signed/tb_32bit.v line 181
+quit -sim
+# End time: 12:04:39 on Jun 28,2024, Elapsed time: 0:01:58
+# Errors: 0, Warnings: 2
+# Compile of stack.v was successful.
+# Compile of tb_4bit.v was successful.
+# Compile of tb_8bit.v was successful.
+# Compile of tb_16bit.v was successful.
+# Compile of tb_32bit.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.tb_32bit
+# vsim -gui work.tb_32bit 
+# Start time: 12:04:51 on Jun 28,2024
+# Loading work.tb_32bit
+# Loading work.stack
+# Break key hit
+run -all
+# Pushing data           3 onto the stack
+# Pushing data           5 onto the stack
+# Addition (without overflow) result:           3 +           5 =           8
+# Pushing data  2147483647 onto the stack
+# Pushing data           2 onto the stack
+# Addition (overflow) result:  2147483647 +           2 = -2147483647, Overflow: 1
+# Popping data           2 from the stack after addition
+# Pushing data -2147483648 onto the stack
+# Pushing data          -1 onto the stack
+# Addition (overflow) result: -2147483648 +          -1 =  2147483647, Overflow: 1
+# Popping data          -1 from the stack after addition
+# Pushing data          10 onto the stack
+# Pushing data          12 onto the stack
+# Multiplication (without overflow) result:          10 *          12 =         120
+# Pushing data       65536 onto the stack
+# Pushing data       65536 onto the stack
+# Multiplication (overflow) result:       65536 *       65536 =           0, Overflow: 1
+# Pushing data      300000 onto the stack
+# Pushing data      200000 onto the stack
+# Multiplication (overflow) result:      300000 *      200000 =  -129542144, Overflow: 1
+# Pushing data      -20000 onto the stack
+# Pushing data       -5000 onto the stack
+# Multiplication (without overflow) result:      -20000 *       -5000 =   100000000
+# Pushing data           7 onto the stack
+# Pushing data          -8 onto the stack
+# Multiplication (without overflow) result:           7 *          -8 =         -56
+# Popping data          -8 from the stack after multiplication
+# Pushing data           1 onto the stack
+# Pushing data           2 onto the stack
+# Addition (without overflow) result:           1 +           2 =           3
+# Popping data           2 from the stack after addition
+# Final stack contents:
+# stack_mem[0] = 3
+# stack_mem[1] = 5
+# stack_mem[2] = 2147483647
+# stack_mem[3] = -2147483648
+# stack_mem[4] = 10
+# stack_mem[5] = 12
+# stack_mem[6] = 65536
+# stack_mem[7] = 65536
+# stack_mem[8] = 300000
+# stack_mem[9] = 200000
+# stack_mem[10] = -20000
+# stack_mem[11] = -5000
+# stack_mem[12] = 7
+# stack_mem[13] = 1
+# ** Note: $stop    : C:/Users/Abolfazl/Desktop/MQ1-signed/tb_32bit.v(243)
+#    Time: 330 ps  Iteration: 0  Instance: /tb_32bit
+# Break in Module tb_32bit at C:/Users/Abolfazl/Desktop/MQ1-signed/tb_32bit.v line 243
+# End time: 14:59:25 on Jun 28,2024, Elapsed time: 2:54:34
+# Errors: 0, Warnings: 2
